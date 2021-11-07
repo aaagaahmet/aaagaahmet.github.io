@@ -1,38 +1,69 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-  <title>Sitem Canım Sitem</title>
+  <title>Sitem</title>
 </head>
 <body>
-  <header class="flex justify-between bg-yellow-200 items-center px-4 rounded-xl">
-    <section>
-      <h1 class="text-green-600 items-center text-3xl">Tunç Ekin BATTAL</h1>
-    </section>
-    <nav class="flex">
-      <ul class="flex space-x-4 font-mono items-center">
-        <li class="p-6 rounded-lg hover:bg-green-300"><a href="">Anasayfa</a></li>
-        <li class="p-6 rounded-lg hover:bg-yellow-300"><a href="hakkımda.html">Hakkımda</a></li>
-        <li class="p-6 rounded-lg hover:bg-blue-300"><a href="iletsim.html">İletişim</a></li>
-    </nav>
-  </header>
-  <main>
-    <ul><h1 class="text-2xl text-pink-500">Hobilerim</h1>
-      <li class="flex items-start items-center px-4">
-        <span class="iconify text-green-600 animate-ping hover:text-yellow-100" data-icon="zondicons:checkmark" data-inline="false"></span><p class="flex px-2 font-bolt font-mono">Kod (tabikide olacak)</p></li>
-      <li class="flex items-start items-center px-4">
-        <span class="iconify text-green-600 animate-ping hover:text-yellow-100" data-icon="zondicons:checkmark" data-inline="false"></span><p class="flex px-2 font-bolt font-mono">Bateri Çalmak</p></li>
-      <li class="flex items-start items-center px-4">
-        <span class="iconify text-green-600 animate-ping hover:text-yellow-100" data-icon="zondicons:checkmark" data-inline="false"></span><p class="flex px-2 font-bolt font-mono">Mekanik Mühendislik</p></li>
-      <li class="flex items-start items-center px-4">
-        <span class="iconify text-green-600 animate-ping hover:text-yellow-100" data-icon="zondicons:checkmark" data-inline="false"></span><p class="flex px-2 font-bolt font-mono">Arduino</p></li>
-    </ul>
-    <p1 class="flex items-start items-center my-9 px-4"><span class="iconify h-7 w-7 text-yellow-300 hover:text-green-600" data-icon="zondicons:link" data-inline="false"></span><a class="text-2xl p-2 rounded-xl bg-blue-400" href="https://www.minecraft.net">Favori oyunum</a></p1>
-    <p2>Ne Eklesem Bilmiyorum</p2>
-  </main>
+  <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
+    <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+      <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
+      <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
+        <div class="max-w-md mx-auto">
+          <div class="divide-y divide-gray-200">
+            <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
+              <p>Merhaba, Ben Tunç Ekin Battal 13 Yaşında Kodlamaya Aşırı Meraklı Olan Biriyim Bu Benim İlk internet Sitem Şimdilik Pek İyi Değil Ama Gelişeceğim İşte Benim Hakıımda Birkaç Bilgi:<p>
+              <ul class="list-disc space-y-2">
+                <li class="flex items-start">
+                  <span class="h-6 flex items-center sm:h-7">
+                    <svg class="flex-shrink-0 h-5 w-5 text-cyan-500" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  <p class="ml-2">
+                    Eskişehirde Yaşıyorum
+                    <code class="text-sm font-bold text-gray-900">internetin berbat olduğu bir yer</code>
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-6 flex items-center sm:h-7">
+                    <svg class="flex-shrink-0 h-5 w-5 text-cyan-500" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  <p class="ml-2">
+                    Bir Küçük Kardeşim Var
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-6 flex items-center sm:h-7">
+                    <svg class="flex-shrink-0 h-5 w-5 text-cyan-500" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  <p class="ml-2">Ticaret Odası Ortaokuluna Gidiyorum</p>
+                </li>
+              </ul>
+              <p>Biliyorum Biraz Gereksiz Oldu Ama Elimden Gelen Bu ¯\_(ツ)_/¯</p>
+            </div>
+            <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
+              <p>Yardımmı Etmek İstiyorsun?</p>
+              <p>
+                <a href="destek.html" class="text-cyan-600 hover:text-cyan-700">İşte Link :) &rarr; </a>
+              </p>
+            </div>
+            <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
+              <p>İşte Blog Sayfam!</p>
+              <p>
+                <a href="https://tuncekin.blogspot.com/" class="text-cyan-600 hover:text-cyan-700">Onunda Linki Bu :D &rarr; </a>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
